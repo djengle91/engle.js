@@ -4,10 +4,11 @@
     'Engle'.split('').forEach(function(a, i) {
       arr[i] = a.charCodeAt(0);
     });
+    return arr;
   }
 
   var engle = function(str) {
-    return str ? str === 'Engle' : 'Engle';
+    return str ? str.toLowerCase() === 'engle' : 'Engle';
   };
 
   engle.reverse = function() {
@@ -21,7 +22,7 @@
   engle.binary = function() {
     var s = '';
     getAsciiCodes().forEach(function(n) {
-      s += (n.toString(2) + ' ').trim();
+      s += (n.toString(2));
     });
     return s;
   }
@@ -29,7 +30,7 @@
   engle.octal = function() {
     var s = '';
     getAsciiCodes().forEach(function(n) {
-      s += (n.toString(8) + ' ').trim();
+      s += (n.toString(8));
     });
     return s;
   }
@@ -37,7 +38,7 @@
   engle.hex = function() {
     var s = '';
     getAsciiCodes().forEach(function(n) {
-      s += (n.toString(16) + ' ').trim();
+      s += (n.toString(16));
     });
     return s;
   }

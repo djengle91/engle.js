@@ -1,6 +1,6 @@
 {
   "name": "engle",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Library for handling the last name 'Engle'",
   "main": "index.js",
   "repository": {
