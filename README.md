@@ -1,7 +1,7 @@
 # engle.js
 Library for handling the last name 'Engle'
 
-```
+```js
 engle();
 // Returns the string 'Engle'.
 
