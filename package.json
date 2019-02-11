@@ -1,0 +1,17 @@
+{
+  "name": "engle",
+  "version": "0.0.1",
+  "description": "Library for handling the last name 'Engle'",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djengle91/engle.js"
+  },
+  "keywords": [
+    "engle",
+    "englejs",
+    "engle.js"
+  ],
+  "author": "Daniel Engle <djengle91@gmail.com>",
+  "license": "MIT"
+}
